@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2458] undeclared symbol clk_100Mhz_clk_wiz_0_en_clk, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:215]
+INFO: [VRFC 10-2458] undeclared symbol clk_40Mhz_clk_wiz_0_en_clk, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_rect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_rect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sim_1/imports/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

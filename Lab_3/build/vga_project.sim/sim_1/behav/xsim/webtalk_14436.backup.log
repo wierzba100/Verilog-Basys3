@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Mar 30 13:06:35 2022
+# Process ID: 14436
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 30 13:06:36 2022...

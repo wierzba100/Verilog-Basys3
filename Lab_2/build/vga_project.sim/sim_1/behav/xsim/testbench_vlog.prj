@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vga_project.srcs/sources_1/new/draw_background.v" \
+"../../../../vga_project.srcs/sources_1/new/draw_rect.v" \
+"../../../../../sim/tiff_writer.v" \
+"../../../../../rtl/vga_example.v" \
+"../../../../../rtl/vga_timing.v" \
+"../../../../../sim/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

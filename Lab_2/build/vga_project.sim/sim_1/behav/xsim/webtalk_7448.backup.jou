@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Mon Mar 21 08:20:44 2022
+# Process ID: 7448
+# Current directory: C:/Users/student/Downloads/VGA_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/student/Downloads/VGA_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/student/Downloads/VGA_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/student/Downloads/VGA_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/student/Downloads/VGA_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,103 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 8120
+License: Customer
+
+Current time: 	Sun Mar 06 21:02:17 CET 2022
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 7 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	filip
+User home directory: C:/Users/filip
+User working directory: C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.3
+RDI_DATADIR: D:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/filip/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/filip/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/filip/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vivado.log
+Vivado journal file location: 	C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vivado.jou
+Engine tmp dir: 	C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/.Xil/Vivado-8120-DESKTOP-Q7H21OJ
+
+GUI allocated memory:	183 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 628 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\filip\Desktop\Uka³dy elektroniki cyfrowej 2\Lab_1\MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\build\vga_project.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+59034kb) [00:00:05]
+// [Engine Memory]: 510 MB (+383109kb) [00:00:05]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 566 MB (+32509kb) [00:00:06]
+// [Engine Memory]: 596 MB (+1390kb) [00:00:07]
+// [GUI Memory]: 68 MB (+6345kb) [00:00:07]
+// [GUI Memory]: 74 MB (+2720kb) [00:00:07]
+// Tcl Message: open_project {C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'. 
+// [GUI Memory]: 85 MB (+8012kb) [00:00:08]
+// [Engine Memory]: 633 MB (+7777kb) [00:00:08]
+// Project name: vga_project; location: C:/Users/filip/Desktop/Uka³dy elektroniki cyfrowej 2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 41 MB. Current time: 3/6/22 9:02:19 PM CET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cl) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // x (cl)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: vga_example 
+// [Engine Memory]: 676 MB (+11231kb) [00:00:33]

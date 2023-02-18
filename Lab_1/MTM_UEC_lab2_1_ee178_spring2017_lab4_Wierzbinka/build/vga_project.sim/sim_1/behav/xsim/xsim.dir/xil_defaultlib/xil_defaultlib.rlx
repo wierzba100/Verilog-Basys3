@@ -1,0 +1,9 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v,1647457607,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v,,vga_example,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v,1647777449,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/testbench.v,,vga_timing,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/testbench.v,1646931675,verilog,,,,testbench,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/tiff_writer.v,1646931155,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v,,tiff_writer,,,,,,,,

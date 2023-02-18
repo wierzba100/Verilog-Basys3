@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Mar 20 12:57:37 2022
+# Process ID: 3652
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16536 D:\Uklady_elektroniki_cyfrowej_2\Lab_1\MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\build\vga_project.xpr
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vivado.log
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto b4b30be7f52e494283eabaf9fb0bb53e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 20 12:58:10 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 812.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973570000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552770000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:16 ; elapsed = 00:03:37 . Memory (MB): peak = 814.180 ; gain = 1.195
+xsim: Time (s): cpu = 00:00:18 ; elapsed = 00:03:39 . Memory (MB): peak = 814.180 ; gain = 1.195
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:03:48 . Memory (MB): peak = 814.180 ; gain = 1.195
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 20 13:02:38 2022...

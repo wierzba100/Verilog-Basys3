@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Sun Apr 10 21:02:38 2022
+| Host         : DESKTOP-Q7H21OJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -file vga_example_control_sets_placed.rpt
+| Design       : vga_example
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |    27 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             100 |           43 |
+| No           | No                    | Yes                    |              16 |           12 |
+| No           | Yes                   | No                     |             113 |           44 |
+| Yes          | No                    | No                     |              50 |           13 |
+| Yes          | No                    | Yes                    |              20 |            7 |
+| Yes          | Yes                   | No                     |              59 |           21 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

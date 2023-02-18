@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1649617283">
+  <File Type="PWROPT-DCP" Name="vga_example_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="vga_example_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vga_example.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="vga_example_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vga_example_reports.tcl"/>
+  <File Type="BG-DRC" Name="vga_example.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vga_example_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vga_example_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="vga_example.hwdef"/>
+  <File Type="OPT-DCP" Name="vga_example_opt.dcp"/>
+  <File Type="OPT-DRC" Name="vga_example_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="vga_example_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="vga_example_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="vga_example_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vga_example_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vga_example_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vga_example_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vga_example_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vga_example_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vga_example_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vga_example_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vga_example_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="vga_example_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vga_example_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vga_example_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vga_example_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vga_example_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="vga_example.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="vga_example_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vga_example_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vga_example_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vga_example_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vga_example_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vga_example_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="vga_example.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="vga_example_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="vga_example.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vga_example_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="vga_example.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vga_example_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="vga_example.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vga_example_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vga_example_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vga_example_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vga_example_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vga_example_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vga_example_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vga_example_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vga_example_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="vga_example.vdi"/>
+  <File Type="ROUTE-CLK" Name="vga_example_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vga_example_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vga_example_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vga_example_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vga_example_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vga_example_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="vga_example.nky"/>
+  <File Type="BITSTR-BMM" Name="vga_example_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="vga_example.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vga_example.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="vga_example.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/draw_background.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/draw_rect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/vga_timing.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rtl/vga_timing.v"/>
+        <Attr Name="ImportTime" Val="1648418570"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab_3/MouseCtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MouseCtl.vhd"/>
+        <Attr Name="ImportTime" Val="1648573991"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab_3/MouseDisplay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MouseDisplay.vhd"/>
+        <Attr Name="ImportTime" Val="1648573992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab_3/Ps2Interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Ps2Interface.vhd"/>
+        <Attr Name="ImportTime" Val="1648573992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/vga_example.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rtl/vga_example.v"/>
+        <Attr Name="ImportTime" Val="1648727390"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vga_example"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/vga_example.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../constraints/vga_example.xdc"/>
+        <Attr Name="ImportTime" Val="1648635585"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

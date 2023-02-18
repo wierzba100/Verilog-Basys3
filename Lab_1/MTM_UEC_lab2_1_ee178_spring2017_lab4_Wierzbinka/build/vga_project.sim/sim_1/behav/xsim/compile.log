@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

@@ -1,0 +1,11 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim/glbl.v,1507048672,verilog,,,,glbl,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v,1647971738,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v,,draw_background,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v,1647973791,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v,,draw_rect,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v,1647972259,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v,,vga_example,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v,1647820946,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v,,vga_timing,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v,1647820434,verilog,,,,testbench,,,,,,,,
+D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v,1646898754,verilog,,D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v,,tiff_writer,,,,,,,,

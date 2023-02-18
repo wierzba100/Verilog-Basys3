@@ -1,0 +1,400 @@
+/*
+
+Xilinx Vivado v2017.3.1 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2035080 on Fri Oct 20 14:20:01 MDT 2017
+IP Build: 2034413 on Fri Oct 20 15:56:25 MDT 2017
+
+Process ID: 1608
+License: Customer
+
+Current time: 	Mon Feb 28 12:10:23 CET 2022
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 17 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	student
+User home directory: C:/Users/student
+User working directory: C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.3
+RDI_DATADIR: D:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/student/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/student/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/student/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vivado.log
+Vivado journal file location: 	C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vivado.jou
+Engine tmp dir: 	C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/.Xil/Vivado-1608-cadence29
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 549 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\student\Downloads\MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\build\vga_project.xpr. Version: Vivado v2017.3.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 80 MB (+81667kb) [00:00:05]
+// [Engine Memory]: 528 MB (+401684kb) [00:00:05]
+// Tcl Message: open_project C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 565 MB (+11436kb) [00:00:08]
+// [GUI Memory]: 84 MB (+88kb) [00:00:09]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 41 MB. Current time: 2/28/22 12:10:27 PM CET
+// Project name: vga_project; location: C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build; part: xc7a35tcpg236-1
+// [Engine Memory]: 610 MB (+17648kb) [00:00:11]
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 813.691 ; gain = 46.117 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "2 errors"); // h (N, cl)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 5); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 5); // B (D, cl)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 5, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 5, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 5, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 5, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "2 errors"); // h (N, cl)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// PAPropertyPanels.initPanels (vga_example.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// Elapsed time: 45 seconds
+selectCodeEditor("vga_example.v", 278, 366); // cd (w, cl)
+selectCodeEditor("vga_example.v", 259, 326); // cd (w, cl)
+selectCodeEditor("vga_example.v", 177, 286); // cd (w, cl)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 42 MB. Current time: 2/28/22 12:12:26 PM CET
+// Elapsed time: 58 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, cl)
+// bs (cl):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: vga_example 
+// [Engine Memory]: 665 MB (+25437kb) [00:03:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 726 MB. GUI used memory: 43 MB. Current time: 2/28/22 12:13:25 PM CET
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 800 MB (+106701kb) [00:03:12]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 940 MB. GUI used memory: 43 MB. Current time: 2/28/22 12:13:32 PM CET
+// [Engine Memory]: 942 MB (+106851kb) [00:03:15]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 90 MB (+1574kb) [00:03:15]
+// [Engine Memory]: 1,049 MB (+62985kb) [00:03:15]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 900.793 ; gain = 61.223 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'vga_example' [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:13] INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:35] INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:35] INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468] INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877] INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806] INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806] INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617] 
+// Tcl Message: 	Parameter CE_TYPE bound to: SYNC - type: string  	Parameter IS_CE_INVERTED bound to: 1'b0  	Parameter IS_I_INVERTED bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617] INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648] 
+// Tcl Message: 	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string  	Parameter INIT bound to: 1'b0  	Parameter IS_C_INVERTED bound to: 1'b0  	Parameter IS_D1_INVERTED bound to: 1'b0  	Parameter IS_D2_INVERTED bound to: 1'b0  	Parameter SRTYPE bound to: SYNC - type: string  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648] INFO: [Synth 8-638] synthesizing module 'vga_timing' [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v:13] INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_timing.v:13] INFO: [Synth 8-256] done synthesizing module 'vga_example' (7#1) [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 932.930 ; gain = 93.359 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 932.930 ; gain = 93.359 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/constraints/vga_example.xdc] Finished Parsing XDC File [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/constraints/vga_example.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers. INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 2 instances were transformed.   BUFGCE => BUFGCTRL: 1 instances   MMCME2_BASE => MMCME2_ADV: 1 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1252.875 ; gain = 413.305 
+// Tcl Message: 23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1252.875 ; gain = 413.305 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 16 seconds
+dismissDialog("Open Elaborated Design"); // bs (cl)
+// Elapsed time: 18 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cl)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// TclEventType: DESIGN_CLOSE
+// [GUI Memory]: 97 MB (+2061kb) [00:03:39]
+// [GUI Memory]: 104 MB (+3156kb) [00:03:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 65 MB. Current time: 2/28/22 12:13:56 PM CET
+// Engine heap size: 1,079 MB. GUI used memory: 66 MB. Current time: 2/28/22 12:13:56 PM CET
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_timing.v", 2); // k (j, cl)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // u (O, cl)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 3 seconds
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_Cancel", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// i (cl): Reset and Re-run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Reset and Re-run"); // a (i)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("Reset and Re-run"); // i (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// bs (cl):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Mon Feb 28 12:14:11 2022] Launched impl_1... Run output will be captured here: C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs (cl)
+// [GUI Memory]: 111 MB (+1058kb) [00:04:02]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cl): Implementation Failed: addNotify
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false, false, false, false, false, true); // ah (O, cl) - Double Click
+// Elapsed time: 129 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 6); // B (D, cl)
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cl)
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v), my_example : vga_example (vga_example.v)]", 7); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v), my_example : vga_example (vga_example.v)]", 7); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench (testbench.v)]", 6); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cl)
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'vga_timing' instantiated as 'my_timing' [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:89]. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Project 1-486] Could not resolve non-primitive black box cell 'vga_timing' instantiated as 'my_timing' [C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:89]. ]", 2, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\student\Downloads\MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\rtl\vga_example.v;-;;-;16;-;line;-;89;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("vga_example.v", 197, 180); // cd (w, cl)
+// Elapsed time: 49 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot testbench_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2017.3.1 (64-bit)   **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017   **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Mon Feb 28 12:19:08 2022... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/student/Downloads/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 54 MB. Current time: 2/28/22 12:19:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source testbench.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: If simulation ends before the testbench completes, use the menu option to run all. Prepare to wait a long time... Info: tiff_writer started frame           0 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1252.875 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (cl)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, pclk_mirror]", 1, false); // a (s, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 52 MB. Current time: 2/28/22 12:19:14 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, vs]", 2, false); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, hs]", 3, false); // a (s, cl)
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, r[3:0]]", 4); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 52 MB. Current time: 2/28/22 12:19:21 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, g[3:0]]", 9); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, g[3:0]]", 9); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 52 MB. Current time: 2/28/22 12:19:27 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, g[3:0]]", 9); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, b[3:0]]", 14); // a (s, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+closeFrame(PAResourceOtoP.PAViews_SCOPE, "Scopes"); // ax (aF, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 53 MB. Current time: 2/28/22 12:19:47 PM CET
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cl)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - testbench", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false, false, false, false, false, true); // ah (O, cl) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'my_timing' of type 'vga_timing' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false, false, false, false, false, true); // ah (O, cl) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("vga_example.v", 172, 135); // cd (w, cl)
+// Elapsed time: 38 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cl)
+// Elapsed time: 82 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_timing : vga_timing (vga_timing.v)]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_timing.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_timing.v", 2); // k (j, cl)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_timing.v", 2); // k (j, cl)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)

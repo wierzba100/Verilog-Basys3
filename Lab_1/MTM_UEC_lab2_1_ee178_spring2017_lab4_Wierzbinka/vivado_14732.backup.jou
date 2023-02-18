@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Mar  6 23:56:00 2022
+# Process ID: 14732
+# Current directory: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka
+# Command line: vivado.exe -mode tcl -source run.tcl -tclargs bitstream
+# Log file: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/vivado.log
+# Journal file: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\vivado.jou
+#-----------------------------------------------------------
+source run.tcl

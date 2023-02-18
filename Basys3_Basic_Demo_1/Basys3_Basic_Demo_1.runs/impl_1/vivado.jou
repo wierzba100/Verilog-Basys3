@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Mar  7 19:06:46 2022
+# Process ID: 15328
+# Current directory: C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.runs/impl_1
+# Command line: vivado.exe -log GPIO_demo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source GPIO_demo.tcl -notrace
+# Log file: C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.runs/impl_1/GPIO_demo.vdi
+# Journal file: C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source GPIO_demo.tcl -notrace

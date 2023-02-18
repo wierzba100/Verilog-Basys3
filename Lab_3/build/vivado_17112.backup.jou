@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Apr  4 21:49:53 2022
+# Process ID: 17112
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1232 D:\Uklady_elektroniki_cyfrowej_2\Lab_3\build\vga_project.xpr
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vivado.log
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.xpr
+update_compile_order -fileset sources_1

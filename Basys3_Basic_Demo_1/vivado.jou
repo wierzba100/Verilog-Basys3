@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Mar  7 19:05:20 2022
+# Process ID: 3860
+# Current directory: C:/Users/filip/Downloads/Basys3_Basic_Demo_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5076 C:\Users\filip\Downloads\Basys3_Basic_Demo_1\Basys3_Basic_Demo_1.xpr
+# Log file: C:/Users/filip/Downloads/Basys3_Basic_Demo_1/vivado.log
+# Journal file: C:/Users/filip/Downloads/Basys3_Basic_Demo_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.xpr
+update_compile_order -fileset sources_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+update_ip_catalog
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.runs/impl_1/GPIO_demo.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/filip/Downloads/Basys3_Basic_Demo_1/Basys3_Basic_Demo_1.runs/impl_1/GPIO_demo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Mar  6 23:56:00 2022
+# Process ID: 14732
+# Current directory: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka
+# Command line: vivado.exe -mode tcl -source run.tcl -tclargs bitstream
+# Log file: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/vivado.log
+# Journal file: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\vivado.jou
+#-----------------------------------------------------------
+source run.tcl
+# set project vga_project
+# set top_module top
+# set target xc7a35tcpg236-1
+# set bitstream_file build/${project}.runs/impl_1/${top_module}.bit
+# proc usage {} {
+#     puts "usage: vivado -mode tcl -source [info script] -tclargs \[simulation/bitstream/program\]"
+#     exit 1
+# }
+# if {($argc != 1) || ([lindex $argv 0] ni {"simulation" "bitstream" "program"})} {
+#     usage
+# }
+# if {[lindex $argv 0] == "program"} {
+#     open_hw_manager
+#     connect_hw_server
+#     current_hw_target [get_hw_targets *]
+#     open_hw_target
+#     current_hw_device [lindex [get_hw_devices] 0]
+#     refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+# 
+#     set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+#     set_property FULL_PROBES.FILE {} [lindex [get_hw_devices] 0]
+#     set_property PROGRAM.FILE ${bitstream_file} [lindex [get_hw_devices] 0]
+# 
+#     program_hw_devices [lindex [get_hw_devices] 0]
+#     refresh_hw_device [lindex [get_hw_devices] 0]
+#     
+#     exit
+# } else {
+#     file mkdir build
+#     create_project ${project} build -part ${target} -force
+# }
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build'
+# read_xdc {
+#     constraints/vga_example.xdc
+# }
+# read_verilog {
+#     rtl/vga_example.v
+#     rtl/vga_timing.v
+# }
+# add_files -fileset sim_1 {
+#     sim/testbench.v
+#     sim/tiff_writer.v
+# }
+# set_property top ${top_module} [current_fileset]
+# update_compile_order -fileset sources_1
+CRITICAL WARNING: [filemgmt 20-742] The top module "top" specified for this project can not be validated. The current project is using automatic hierarchy update mode, and hence a new suitable replacement top will be automatically selected. If this is not desired, please change the hierarchy update mode to one of the manual compile order modes first, and then set top to any desired value.
+Resolution: To switch to manual update order go to the Sources view, right-click on any node in the hierarchy and in the context menu select: 'Hierarchy Update' option 'No Update' or run the following Tcl Command: set_property source_mgmt_mode None [current_project] (which is the Manual Compile Order mode).
+# update_compile_order -fileset sim_1
+# if {[lindex $argv 0] == "simulation"} {
+#     launch_simulation
+#     start_gui
+# } else {
+#     launch_runs synth_1 -jobs 8
+#     wait_on_run synth_1
+# 
+#     launch_runs impl_1 -to_step write_bitstream -jobs 8
+#     wait_on_run impl_1
+#     exit
+# }
+[Sun Mar  6 23:56:09 2022] Launched synth_1...
+Run output will be captured here: C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/build/vga_project.runs/synth_1/runme.log
+[Sun Mar  6 23:56:09 2022] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log vga_example.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_example.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source vga_example.tcl -notrace
+Command: synth_design -top vga_example -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 353.773 ; gain = 95.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:13]
+ERROR: [Synth 8-439] module 'clk_divider' not found [C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:34]
+	Parameter frequency bound to: 32'sb00000000000000001001110001000000 
+ERROR: [Synth 8-285] failed synthesizing module 'vga_example' [C:/Users/filip/Desktop/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 394.855 ; gain = 136.980
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  6 23:56:21 2022...
+[Sun Mar  6 23:56:24 2022] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 265.523 ; gain = 4.645
+ERROR: [Common 17-70] Application Exception: Failed to launch run 'impl_1' due to failures in the following run(s):
+synth_1
+These failed run(s) need to be reset prior to launching 'impl_1' again.
+
+Vivado% exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  6 23:57:40 2022...

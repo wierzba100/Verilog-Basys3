@@ -1,0 +1,793 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Apr 10 21:01:25 2022
+# Process ID: 14256
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1
+# Command line: vivado.exe -log vga_example.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_example.tcl
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/vga_example.vds
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_example.tcl -notrace
+Command: synth_design -top vga_example -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7968 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 362.824 ; gain = 94.402
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:40]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:40]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v:71]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:127]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:127]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:130]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:130]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25757]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 25 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25757]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (6#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (7#1) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (8#1) [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v:71]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (9#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (10#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-638] synthesizing module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+	Parameter WIDTH bound to: 1 - type: integer 
+	Parameter HEIGHT bound to: 1 - type: integer 
+	Parameter COLOR bound to: 12'b111111111111 
+INFO: [Synth 8-256] done synthesizing module 'draw_rect' (11#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+INFO: [Synth 8-638] synthesizing module 'MouseCtl' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:207]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter CHECK_PERIOD_MS bound to: 500 - type: integer 
+	Parameter TIMEOUT_PERIOD_MS bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'Ps2Interface' declared at 'D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:152' bound to instance 'Inst_Ps2Interface' of component 'Ps2Interface' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:369]
+INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:180]
+INFO: [Synth 8-256] done synthesizing module 'Ps2Interface' (12#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:180]
+WARNING: [Synth 8-6014] Unused sequential element inc_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:450]
+WARNING: [Synth 8-6014] Unused sequential element x_inter_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:456]
+WARNING: [Synth 8-6014] Unused sequential element inc_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:514]
+WARNING: [Synth 8-6014] Unused sequential element y_inter_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:520]
+INFO: [Synth 8-256] done synthesizing module 'MouseCtl' (13#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:207]
+WARNING: [Synth 8-350] instance 'u_MouseCtl' of module 'MouseCtl' requires 16 connections, but only 6 given [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+INFO: [Synth 8-638] synthesizing module 'MouseDisplay' [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:129]
+WARNING: [Synth 8-614] signal 'ypos' is read in the process but is not in the sensitivity list [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'MouseDisplay' (14#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:129]
+WARNING: [Synth 8-350] instance 'u_MouseDisplay' of module 'MouseDisplay' requires 13 connections, but only 12 given [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:171]
+INFO: [Synth 8-256] done synthesizing module 'vga_example' (15#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 407.914 ; gain = 139.492
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin clk_wiz_0:reset to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:95]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[11] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[10] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[9] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[8] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[7] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[6] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[5] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[4] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[3] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[2] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[1] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:value[0] to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:setx to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:sety to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:setmax_x to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+WARNING: [Synth 8-3295] tying undriven pin u_MouseCtl:setmax_y to constant 0 [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_example.v:162]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 407.914 ; gain = 139.492
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_0/inst'
+Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_example_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_example_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/constrs_1/imports/constraints/vga_example.xdc]
+Finished Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/constrs_1/imports/constraints/vga_example.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/constrs_1/imports/constraints/vga_example.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_example_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_example_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_example_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_example_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'clk_wiz_0/inst'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  BUFGCE => BUFGCTRL: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 721.910 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for clk_wiz_0/inst. (constraint file  D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/dont_touch.xdc, line 10).
+Applied set_property DONT_TOUCH = true for clk_wiz_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vcount_nxt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element vcount_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_timing.v:91]
+INFO: [Synth 8-5546] ROM "b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "g_out" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Ps2Interface'
+INFO: [Synth 8-5546] ROM "reset_bit_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "read_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "load_tx_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ps2_clk_h" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_100us_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_20us_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_63clk_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element clk_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:362]
+WARNING: [Synth 8-6014] Unused sequential element data_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:386]
+WARNING: [Synth 8-6014] Unused sequential element delay_100us_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:697]
+WARNING: [Synth 8-6014] Unused sequential element delay_20us_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:721]
+WARNING: [Synth 8-6014] Unused sequential element delay_63clk_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:745]
+WARNING: [Synth 8-6014] Unused sequential element bit_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:484]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MouseCtl'
+INFO: [Synth 8-5545] ROM "periodic_check_tick" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "timeout" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reset_periodic_check_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "new_event" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:213]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:214]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:213]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:214]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:213]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseDisplay.vhd:214]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00000 |                            00000
+            rx_down_edge |                            00001 |                            00011
+                rx_clk_l |                            00010 |                            00010
+                rx_clk_h |                            00011 |                            00001
+         rx_error_parity |                            00100 |                            00100
+           rx_data_ready |                            00101 |                            00101
+          tx_force_clk_l |                            00110 |                            00110
+      tx_bring_data_down |                            00111 |                            00111
+          tx_release_clk |                            01000 |                            01000
+ tx_first_wait_down_edge |                            01001 |                            01001
+                tx_clk_l |                            01010 |                            01010
+         tx_wait_up_edge |                            01011 |                            01011
+tx_wait_up_edge_before_ack |                            01100 |                            01101
+             tx_wait_ack |                            01101 |                            01110
+         tx_received_ack |                            01110 |                            01111
+         tx_error_no_ack |                            01111 |                            10000
+                tx_clk_h |                            10000 |                            01100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Ps2Interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |                           000000 |                           000000
+          reset_wait_ack |                           000001 |                           000001
+reset_wait_bat_completion |                           000010 |                           000010
+           reset_wait_id |                           000011 |                           000011
+reset_set_sample_rate_200 |                           000100 |                           000100
+reset_set_sample_rate_200_wait_ack |                           000101 |                           000101
+reset_send_sample_rate_200 |                           000110 |                           000110
+reset_send_sample_rate_200_wait_ack |                           000111 |                           000111
+reset_set_sample_rate_100 |                           001000 |                           001000
+reset_set_sample_rate_100_wait_ack |                           001001 |                           001001
+reset_send_sample_rate_100 |                           001010 |                           001010
+reset_send_sample_rate_100_wait_ack |                           001011 |                           001011
+reset_set_sample_rate_80 |                           001100 |                           001100
+reset_set_sample_rate_80_wait_ack |                           001101 |                           001101
+reset_send_sample_rate_80 |                           001110 |                           001110
+reset_send_sample_rate_80_wait_ack |                           001111 |                           001111
+           reset_read_id |                           010000 |                           010000
+  reset_read_id_wait_ack |                           010001 |                           010001
+   reset_read_id_wait_id |                           010010 |                           010010
+    reset_set_resolution |                           010011 |                           010011
+reset_set_resolution_wait_ack |                           010100 |                           010100
+   reset_send_resolution |                           010101 |                           010101
+reset_send_resolution_wait_ack |                           010110 |                           010110
+reset_set_sample_rate_40 |                           010111 |                           010111
+reset_set_sample_rate_40_wait_ack |                           011000 |                           011000
+reset_send_sample_rate_40 |                           011001 |                           011001
+reset_send_sample_rate_40_wait_ack |                           011010 |                           011010
+  reset_enable_reporting |                           011011 |                           011011
+reset_enable_reporting_wait_ack |                           011100 |                           011100
+             read_byte_1 |                           011101 |                           011101
+             read_byte_2 |                           011110 |                           011110
+             read_byte_3 |                           011111 |                           011111
+             read_byte_4 |                           100000 |                           100000
+          mark_new_event |                           100001 |                           100100
+           check_read_id |                           100010 |                           100001
+  check_read_id_wait_ack |                           100011 |                           100010
+   check_read_id_wait_id |                           100100 |                           100011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MouseCtl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 9     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   3 Input      4 Bit       Adders := 2     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	               11 Bit    Registers := 8     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 16    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 49    
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	  37 Input      8 Bit        Muxes := 3     
+	 107 Input      6 Bit        Muxes := 1     
+	  36 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 10    
+	   5 Input      4 Bit        Muxes := 1     
+	  37 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 22    
+	   3 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 6     
+	  37 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vga_example 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
+Module clk_wiz_0_clk_wiz 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+Module vga_timing 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module draw_background 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 7     
+	   5 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+Module draw_rect 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
+Module Ps2Interface 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	  36 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	  17 Input      1 Bit        Muxes := 6     
+Module MouseCtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input      9 Bit        Muxes := 2     
+	  37 Input      8 Bit        Muxes := 3     
+	 107 Input      6 Bit        Muxes := 1     
+	  37 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  37 Input      1 Bit        Muxes := 22    
+Module MouseDisplay 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 3     
+	   3 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/zpos_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:1006]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/left_down_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:418]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/left_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:418]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/middle_down_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:420]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/middle_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:420]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/right_down_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:422]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/right_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:422]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/new_event_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/MouseCtl.vhd:605]
+INFO: [Synth 8-5546] ROM "my_timing/vcount_nxt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u_draw_background/b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u_draw_background/b_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "u_MouseCtl/periodic_check_tick" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "u_MouseCtl/timeout" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element my_timing/vcount_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/rtl/vga_timing.v:91]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/data_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:386]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/clk_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:362]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/bit_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:484]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/delay_100us_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:697]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/delay_20us_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:721]
+WARNING: [Synth 8-6014] Unused sequential element u_MouseCtl/Inst_Ps2Interface/delay_63clk_count_reg was removed.  [D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.srcs/sources_1/imports/Lab_3/Ps2Interface.vhd:745]
+INFO: [Synth 8-3886] merging instance 'u_draw_background/b_out_reg[0]' (FDR) to 'u_draw_background/b_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_background/g_out_reg[0]' (FDR) to 'u_draw_background/g_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_background/g_out_reg[1]' (FDR) to 'u_draw_background/g_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_background/r_out_reg[0]' (FDR) to 'u_draw_background/r_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_rect/b_out_reg[0]' (FDRE) to 'u_draw_rect/b_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_rect/g_out_reg[0]' (FDRE) to 'u_draw_rect/g_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_draw_rect/g_out_reg[1]' (FDRE) to 'u_draw_rect/g_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_draw_rect/r_out_reg[0]' (FDRE) to 'u_draw_rect/r_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_MouseDisplay/blue_out_reg[0]' (FDS) to 'u_MouseDisplay/blue_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_MouseDisplay/green_out_reg[0]' (FDS) to 'u_MouseDisplay/green_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_MouseDisplay/green_out_reg[1]' (FDS) to 'u_MouseDisplay/green_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_MouseDisplay/red_out_reg[0]' (FDS) to 'u_MouseDisplay/red_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'b_reg[0]' (FD) to 'b_reg[2]'
+INFO: [Synth 8-3886] merging instance 'g_reg[0]' (FD) to 'g_reg[1]'
+INFO: [Synth 8-3886] merging instance 'g_reg[1]' (FD) to 'g_reg[2]'
+INFO: [Synth 8-3886] merging instance 'r_reg[0]' (FD) to 'r_reg[2]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+----------------------------+---------------+----------------+
+|Module Name  | RTL Object                 | Depth x Width | Implemented As | 
++-------------+----------------------------+---------------+----------------+
+|MouseDisplay | mouserom[0]                | 256x2         | LUT            | 
+|vga_example  | u_MouseDisplay/mouserom[0] | 256x2         | LUT            | 
++-------------+----------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 721.910 ; gain = 453.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[11]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[10]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[9]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[8]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[7]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[6]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[5]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[4]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[3]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[2]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[1]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/y_max_reg[0]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[11]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[10]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[9]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[8]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[7]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[6]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[5]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[4]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[3]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[2]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[1]) is unused and will be removed from module vga_example.
+WARNING: [Synth 8-3332] Sequential element (u_MouseCtl/x_max_reg[0]) is unused and will be removed from module vga_example.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin clk_wiz_0:reset to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     1|
+|2     |BUFGCE     |     2|
+|3     |BUFH       |     2|
+|4     |CARRY4     |    76|
+|5     |LUT1       |    24|
+|6     |LUT2       |   133|
+|7     |LUT3       |    81|
+|8     |LUT4       |   194|
+|9     |LUT5       |   139|
+|10    |LUT6       |   144|
+|11    |MMCME2_ADV |     1|
+|12    |MUXF7      |     9|
+|13    |MUXF8      |     1|
+|14    |ODDR       |     1|
+|15    |FDCE       |    50|
+|16    |FDPE       |     2|
+|17    |FDRE       |   294|
+|18    |FDSE       |     8|
+|19    |IBUF       |     2|
+|20    |IOBUF      |     2|
+|21    |OBUF       |    15|
++------+-----------+------+
+
+Report Instance Areas: 
++------+----------------------+------------------+------+
+|      |Instance              |Module            |Cells |
++------+----------------------+------------------+------+
+|1     |top                   |                  |  1181|
+|2     |  clk_wiz_0           |clk_wiz_0         |    23|
+|3     |    inst              |clk_wiz_0_clk_wiz |    23|
+|4     |  my_timing           |vga_timing        |   245|
+|5     |  u_MouseCtl          |MouseCtl          |   668|
+|6     |    Inst_Ps2Interface |Ps2Interface      |   283|
+|7     |  u_MouseDisplay      |MouseDisplay      |    29|
+|8     |  u_draw_background   |draw_background   |    84|
+|9     |  u_draw_rect         |draw_rect         |   103|
++------+----------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 727.727 ; gain = 145.309
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 727.727 ; gain = 459.305
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  BUFGCE => BUFGCTRL: 2 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+155 Infos, 71 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 727.727 ; gain = 467.641
+INFO: [Common 17-1381] The checkpoint 'D:/Uklady_elektroniki_cyfrowej_2/Lab_3/build/vga_project.runs/synth_1/vga_example.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vga_example_utilization_synth.rpt -pb vga_example_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 727.727 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 10 21:02:04 2022...

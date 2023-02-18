@@ -1,0 +1,1203 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Mar 22 16:34:36 2022
+# Process ID: 8864
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9492 D:\Uklady_elektroniki_cyfrowej_2\Lab_2\build\vga_project.xpr
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vivado.log
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/student/Downloads/VGA_Wierzbinka/build' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: vga_example
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 973.082 ; gain = 44.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (7#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-638] synthesizing module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_rect' (8#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+ERROR: [Synth 8-448] named port connection 'hcount_out_nxt' does not exist for instance 'u_draw_rect' of module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:130]
+ERROR: [Synth 8-685] variable 'r' should not be used in output port connection [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:139]
+ERROR: [Synth 8-285] failed synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 990.355 ; gain = 61.562
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+19 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: vga_example
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1008.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (7#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'vga_example' (8#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.918 ; gain = 8.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.918 ; gain = 8.793
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Finished Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  BUFGCE => BUFGCTRL: 1 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1313.059 ; gain = 304.934
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1313.059 ; gain = 304.934
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 22 16:50:49 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1331.117 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973595000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552795000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:03:55 . Memory (MB): peak = 1334.816 ; gain = 3.699
+xsim: Time (s): cpu = 00:00:26 ; elapsed = 00:03:57 . Memory (MB): peak = 1334.816 ; gain = 3.699
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:27 ; elapsed = 00:04:06 . Memory (MB): peak = 1334.816 ; gain = 3.699
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973595000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552795000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:11 ; elapsed = 00:03:50 . Memory (MB): peak = 1357.191 ; gain = 22.375
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:03:52 . Memory (MB): peak = 1357.191 ; gain = 22.375
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:03:56 . Memory (MB): peak = 1357.191 ; gain = 22.375
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973595000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552795000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:20 ; elapsed = 00:03:47 . Memory (MB): peak = 1357.191 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:03:48 . Memory (MB): peak = 1357.191 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:03:53 . Memory (MB): peak = 1357.191 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Mar 22 17:17:03 2022] Launched synth_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1/runme.log
+[Tue Mar 22 17:17:04 2022] Launched impl_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.3
+  **** Build date : Oct  4 2017-20:12:17
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183739053A
+set_property PROGRAM.FILE {D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1921.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (7#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'vga_example' (8#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1950.047 ; gain = 28.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1950.047 ; gain = 28.484
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Finished Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1969.984 ; gain = 48.422
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973595000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552795000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:26 ; elapsed = 00:03:59 . Memory (MB): peak = 1969.984 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:26 ; elapsed = 00:04:01 . Memory (MB): peak = 1969.984 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:27 ; elapsed = 00:04:06 . Memory (MB): peak = 1969.984 ; gain = 0.000
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1969.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (7#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-638] synthesizing module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+	Parameter POS_X bound to: 0 - type: integer 
+	Parameter POS_Y bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 300 - type: integer 
+	Parameter HEIGHT bound to: 300 - type: integer 
+	Parameter COLOR bound to: 12'b101010111100 
+INFO: [Synth 8-256] done synthesizing module 'draw_rect' (8#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+ERROR: [Synth 8-448] named port connection 'hcount_out_nxt' does not exist for instance 'u_draw_rect' of module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:131]
+ERROR: [Synth 8-285] failed synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1972.836 ; gain = 2.852
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1972.836 ; gain = 2.852
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1972.836 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_example' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:37]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (2#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (4#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (5#1) [D:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+	Parameter HOR_TOTAL_TIME bound to: 1056 - type: integer 
+	Parameter HOR_BLANK_START bound to: 800 - type: integer 
+	Parameter HOR_BLANK_STOP bound to: 1056 - type: integer 
+	Parameter HOR_SYNC_START bound to: 840 - type: integer 
+	Parameter HOR_SYNC_STOP bound to: 968 - type: integer 
+	Parameter VER_TOTAL_TIME bound to: 628 - type: integer 
+	Parameter VER_BLANK_START bound to: 600 - type: integer 
+	Parameter VER_BLANK_STOP bound to: 628 - type: integer 
+	Parameter VER_SYNC_START bound to: 601 - type: integer 
+	Parameter VER_SYNC_STOP bound to: 605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'draw_background' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-256] done synthesizing module 'draw_background' (7#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v:3]
+INFO: [Synth 8-638] synthesizing module 'draw_rect' [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+	Parameter POS_X bound to: 0 - type: integer 
+	Parameter POS_Y bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 300 - type: integer 
+	Parameter HEIGHT bound to: 300 - type: integer 
+	Parameter COLOR bound to: 12'b101010111100 
+INFO: [Synth 8-256] done synthesizing module 'draw_rect' (8#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v:3]
+INFO: [Synth 8-256] done synthesizing module 'vga_example' (9#1) [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1975.730 ; gain = 2.895
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1975.730 ; gain = 2.895
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Finished Parsing XDC File [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/constraints/vga_example.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 2006.406 ; gain = 33.570
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_rect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.draw_rect
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973620000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552820000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:19 ; elapsed = 00:03:53 . Memory (MB): peak = 2006.406 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:20 ; elapsed = 00:03:55 . Memory (MB): peak = 2006.406 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:04:00 . Memory (MB): peak = 2006.406 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Mar 22 19:09:35 2022] Launched synth_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1/runme.log
+[Tue Mar 22 19:09:35 2022] Launched impl_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_rect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.draw_rect
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973620000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552820000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:16 ; elapsed = 00:04:13 . Memory (MB): peak = 2006.406 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:17 ; elapsed = 00:04:14 . Memory (MB): peak = 2006.406 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:04:19 . Memory (MB): peak = 2006.406 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Mar 22 19:21:57 2022] Launched synth_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1/runme.log
+[Tue Mar 22 19:21:57 2022] Launched impl_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Tue Mar 22 19:24:29 2022] Launched synth_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/synth_1/runme.log
+[Tue Mar 22 19:24:29 2022] Launched impl_1...
+Run output will be captured here: D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_background.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_background
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.srcs/sources_1/new/draw_rect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw_rect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/tiff_writer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tiff_writer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_example
+INFO: [VRFC 10-2458] undeclared symbol clkfb, assumed default net type wire [D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_example.v:58]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/rtl/vga_timing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_timing
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Uklady_elektroniki_cyfrowej_2/Lab_2/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 66f872df491244bdb3231f021275aa26 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=10.0...
+Compiling module unisims_ver.BUFH
+Compiling module unisims_ver.BUFGCE_default
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.vga_timing
+Compiling module xil_defaultlib.draw_background
+Compiling module xil_defaultlib.draw_rect
+Compiling module xil_defaultlib.vga_example
+Compiling module xil_defaultlib.tiff_writer
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Uklady_elektroniki_cyfrowej_2/Lab_2/build/vga_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+If simulation ends before the testbench
+completes, use the menu option to run all.
+Prepare to wait a long time...
+Info: tiff_writer started frame           0
+Info: negedge VS at          15973620000
+Info: tiff writer finished frame           0
+Info: tiff_writer started frame           1
+Info: negedge VS at          32552820000
+Simulation is over, check the waveforms.
+run: Time (s): cpu = 00:00:25 ; elapsed = 00:04:14 . Memory (MB): peak = 2006.406 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:27 ; elapsed = 00:04:15 . Memory (MB): peak = 2006.406 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:28 ; elapsed = 00:04:20 . Memory (MB): peak = 2006.406 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 22 19:36:23 2022...

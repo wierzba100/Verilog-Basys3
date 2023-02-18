@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Mar 18 11:55:53 2022
+# Process ID: 5800
+# Current directory: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka
+# Command line: vivado.exe -mode tcl -source run.tcl -tclargs simulation
+# Log file: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka/vivado.log
+# Journal file: D:/Uklady_elektroniki_cyfrowej_2/Lab_1/MTM_UEC_lab2_1_ee178_spring2017_lab4_Wierzbinka\vivado.jou
+#-----------------------------------------------------------
+source run.tcl
+source testbench.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_sim
